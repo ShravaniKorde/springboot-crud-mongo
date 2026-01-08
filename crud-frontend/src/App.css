@@ -103,5 +103,5 @@ table tr:hover {
 }
 
 button + button {
-  margin-left: 10px; /* Adjust spacing as needed */
+  margin-left: 10px; 
 }
