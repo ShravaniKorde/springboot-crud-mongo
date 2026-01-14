@@ -1,0 +1,73 @@
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+.history/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Spring Boot
+# =========================
+spring.log
+application-local.yml
+application-local.properties
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+*.env
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# MongoDB / Database
+# =========================
+data/
+dump/
+
+# =========================
+# Test & Coverage
+# =========================
+target/
+coverage/
